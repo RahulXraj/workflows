@@ -41,10 +41,3 @@ jobs:
 
       - name: Run ESLint
         run: npm run lint
-    $ git status
-...see what has changed
-$ git add .github
-$ git commit -m "Add CI workflow for running eslint"
-$ git push origin main
-
-const unneededVariable = 'This variable is never used';
